@@ -1,11 +1,13 @@
 /* VARIABLES */
 
 :root {
-    --main-ligth-color: #ededed;
-    --secondary-ligth-color: #949494;
+    --light-bg-color: #eeeeee;
+    --light-text-color: #0f0f0f;
+    --light-border-color: #2e2e2e;
 
-    --main-dark-color: #252525;
-    --secondary-dark-color: #4b4b4b;
+    --dark-bg-color: #202020;
+    --dark-text-color: #ffffff;
+    --dark-border-color: #ebebeb;
 }
 
 /* ALL ELEMENTS */
