@@ -1,0 +1,48 @@
+/* VARIABLES */
+
+:root {
+    --main-ligth-color: #ededed;
+    --secondary-ligth-color: #949494;
+
+    --main-dark-color: #252525;
+    --secondary-dark-color: #4b4b4b;
+}
+
+/* ALL ELEMENTS */
+
+* {
+    line-height: 1;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    outline: none;
+
+    text-decoration: none;
+    appearance: none;
+
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;  
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+/* SCROLLBAR */
+
+body::-webkit-scrollbar {
+    width: .8em;
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+}
