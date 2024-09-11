@@ -1,0 +1,58 @@
+.hero__container {
+    display: flex;
+    padding: 55px 0;
+}
+
+.hero-box {
+    flex: 1;
+    width: 50%;
+}
+
+.hero-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero-callout {
+    display: block;
+    font-size: 45px;
+    font-weight: 500;
+    text-wrap: balance;
+}
+
+.hero-qoute {
+    display: block;
+    text-wrap: balance;
+}
+
+.hero-quote-text {
+    display: block;
+    font-style: italic;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.hero-quote-author {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.hero-categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.category-button {
+    min-width: max-content;
+    padding: 5px 12px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid;
+}
+
+.hero-image {
+    border-radius: 3px;
+    mask-image: linear-gradient(to left, rgba(0, 0, 0, 1) 52%, rgba(0, 0, 0, 0) 90%);
+}
