@@ -1,0 +1,50 @@
+.header {
+    border-bottom: 1px solid;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 22px 0;
+}
+
+.header__container__brand {
+    display: flex;
+    align-items: center;
+}
+
+.header__container__brand__logo {
+    width: 65px;
+    margin-right: 20px;
+}
+
+.header__container__brand__name {
+    font-size: 25px;
+}
+
+.header__container__nav__list {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+.header__container__nav__list__item {
+    cursor: pointer;
+}
+
+.header__container__nav__list__item:not(:last-of-type) {
+    margin-right: 38px;
+}
+
+.header__container__theme-button {
+    padding: 6px;
+    border: 2px solid;
+    border-radius: 50%;
+}
+
+.header__container__theme-button__icon {
+    width: 28px;
+    stroke-width: 2;
+}
